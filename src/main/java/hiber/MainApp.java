@@ -34,7 +34,7 @@ public class MainApp {
          System.out.println();
       }
 
-      User findUserByCar = userService.findUserByCar(new Car("Toyodta Corolla", 123));
+      User findUserByCar = userService.findUserByCar(new Car("Toyota Corolla", 123));
       System.out.println("Id = "+findUserByCar.getId());
       System.out.println("First Name = "+findUserByCar.getFirstName());
       System.out.println("Last Name = "+findUserByCar.getLastName());
